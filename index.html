@@ -1,0 +1,32 @@
+<!-- Licensed under a BSD license. See license.html for license -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebGL Hello</title>
+        <style>
+            html, body {
+                margin:0;
+                overflow:hidden;
+            }
+        </style>
+        <script type="text/javascript" src="build/webgl-hello.js"></script>
+        
+        
+        <!-- example 1 -->
+        <script id="example2-vertex-shader" type="x-shader/x-vertex">
+            void main() {
+                gl_Position = vec4(0.0, 0.0, 0.0, 1.0); // Set the vertex coordinates of the point
+                gl_PointSize = 10.0; // Set the point size
+            }
+        </script></script>
+        <script id="example2-fragment-shader" type="x-shader/x-fragment">
+            void main() {
+                gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0); // Set the point color
+            }
+        </script>
+        <script type="text/javascript">
+            window.onload = HELLO.main;
+        </script>
+    </head>
+</html>
