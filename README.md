@@ -13,4 +13,4 @@ This is a simple WebGL hello world project set up to help get people a little up
 6. run `grunt watch`
 7. in another terminal, run `grunt devserver`
 8. open up the browser (tested in chrome) to localhost:8888
-9. open up the `src/main.ts` to change the examples. If you change code, typescript will recompile automatically and you can refresh the browser to see the changes.
+9. open up the `src/Hello.ts` to change the examples. If you change code, typescript will recompile automatically and you can refresh the browser to see the changes.
